@@ -1,0 +1,107 @@
+body
+{
+    background-size: cover;
+	background-image: url(https://images.unsplash.com/photo-1477093782505-e10aaeb27c6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80);
+}
+
+.navbar-brand
+{
+	color: white;
+	font-size: 250%;
+	font-family: 'Lobster', cursive; 
+}
+
+.log1
+{
+	color: #d7378b;
+	text-decoration:none; 
+}
+
+
+#carouselExampleControls
+{
+	
+	border: 5px solid white;
+	height: 380px;
+}
+
+details
+{
+	margin-top: 70px;
+}
+
+summary
+{
+	padding: 0px 0px 0px 30px;
+	font-size: 150%;
+	border: 5px solid green;
+	border-radius: 5px;
+	background-color: rgba(0, 255, 0, 0.6);
+	color: white;
+}
+
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin: 0px;
+}
+
+.menuimage:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.menuimage
+{
+	margin: 10px;
+	width: 180px;
+	height: 320px;
+	transition: all 0.5s;
+}
+
+footer
+{
+	background-color: black;
+	clear: both;
+	text-align: center;
+	color: white;
+	font-size: 80%;
+	padding: 30px 0px 10px 0px;
+}
+
+.itachi
+{
+   float: right;
+   width: 500px;
+   height: 820px;
+}
+
+.registery
+{
+	width: 750px;
+	padding: 40px 30px;
+	margin: 50px 0px 0px 20px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 30px;
+}
+
+.regbutton
+{
+  margin-top: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: black;
+  padding: 10px 20px;
+  font-size: 120%;
+  color: black;
+}
+
+.regbutton:hover
+{
+	background-color: black;
+	color: white;
+}
